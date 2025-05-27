@@ -13,5 +13,5 @@ angka = st.number_input("Tulis sebuah Angka", value=0, step=1)
 if (angka % 2) == 0:
     st.write("f{angka} adalah Lemah")
 else :
-    st.write(f"{angka} adalah Bilangan Kuat")
+    st.write("f{angka} adalah Bilangan Kuat")
     
