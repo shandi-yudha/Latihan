@@ -6,8 +6,8 @@ st.write(
 )
 st.image("req.jfif", width=700)
 
-st.title("Aplikasi Sederhana")
-st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
+st.title("Stand Power")
+st.header("Aplikasi Mengecek Nilai Genap/Ganjil stand")
 angka = st.number_input("Tulis sebuah Angka", value=0, step=1)
 
 if (angka % 2) == 0:
